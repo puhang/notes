@@ -18,7 +18,18 @@
 3. 共射共基放大器
 4. 输出射随器
 5. 高通滤波
-
+## vollman晶体管放大器设计
+### 电阻负载
+- 晶体管选型
+- 静态工作点
+  $A_v = 500$
+  $f_h = 15MHz$
+  $R_L = 1k\Omega$
+  $g_m = 0.5$
+  $I_C = 13 mA$
+  ![designNotes-电阻负载vollman](https://raw.githubusercontent.com/puhang/resource/master/pictures/designNotes-%E7%94%B5%E9%98%BB%E8%B4%9F%E8%BD%BDvollman.png)
+  ![designNotes-电阻负载vollman_simulationResult](https://raw.githubusercontent.com/puhang/resource/master/pictures/designNotes-%E7%94%B5%E9%98%BB%E8%B4%9F%E8%BD%BDvollman_simulationResult.png)
+### 电流源负载
 ## 偏置电路
 
   

@@ -20,6 +20,8 @@ tags:
 - 基极扩展电阻
 - 转折频率
 - 集电极-基极电容（输出电容）Cob
+![analog-circuit-design-Cob-Vcb](https://raw.githubusercontent.com/puhang/resource/master/pictures/analog-circuit-design-Cob-Vcb.png)
+输出电容与集电极-基极电压成反比，设计静态工作点时（$V_{ce}=V_{cb}+V_{be}$）需考虑频率特性。
 ### 计算参数 （混合$\pi$模型）
 - 设定偏置电流$I_C$，求跨导 $g_m$
   $$ g_m = \frac{I_C}{V_{TH}} $$
@@ -29,7 +31,7 @@ tags:
   $$ C_{\mu}=C_{ob} $$
 - 在数据手册查增益带宽积$f_T$，计算电容$C_\pi$
   $$ C_\pi = \frac{g_m}{w_T}-C_\mu $$
-## 单管放大器类型
+## 分析方法
 ### OCTC开路时间常数法
 无法反应系统中的零点，如射随器的传函中含有零点抵消高频极点，此时用OCTC法分析误差较大。
 **混合$\pi$模型**
@@ -44,6 +46,8 @@ tags:
   电压增益
   电流增益
 - 共射放大器
+  - 增益
+  电压增益： $A_v=g_m*R_L||R_o$
   - 带宽
    **OCTC法计算带宽：**
   $r_\mu$足够大，看做断路
@@ -56,5 +60,10 @@ tags:
   $$ R_{o\mu}=\frac{v_1-v_2}{i_\mu}=R_{o\pi}+(1+g_mR_{o\pi})(R_L||r_o) $$
   $$ \tau_\mu=R_{o\mu}*C_\mu $$
   开路时间常数为$\sum\tau_{oc}$，$w_h=\frac{1}{\sum\tau_{oc}}$，上式$R_L$为负载电阻。
-- 共基放大器
-- 
+
+## 单管放大器类型
+
+## 双管复合型放大器
+- 共射-共基放大器（渥尔曼电路 vollman circuit）
+  共射电路起电流放大作用，共基电路起电压放大作用
+  输出$V_{pp}$由共基放大器工作点决定
