@@ -60,7 +60,21 @@ tags:
   $$ R_{o\mu}=\frac{v_1-v_2}{i_\mu}=R_{o\pi}+(1+g_mR_{o\pi})(R_L||r_o) $$
   $$ \tau_\mu=R_{o\mu}*C_\mu $$
   开路时间常数为$\sum\tau_{oc}$，$w_h=\frac{1}{\sum\tau_{oc}}$，上式$R_L$为负载电阻。
-
+### 噪声系数计算
+噪声温度与噪声系数：对于一些噪声系数非常小的系统，用噪声系数表示很不方便，常常用噪声温度来表示
+$T_e=T_0(NF-1)$
+其中$T_0=290K$
+- 二端口网络的噪声系数
+  一个有噪网络可以等效为无噪声网络再加上两个噪声电流源，然后转换为只有输入端才有噪声源的两端口网络
+  ![analog-circuit-design-二端口噪声等效](https://raw.githubusercontent.com/puhang/resource/master/pictures/analog-circuit-design-%E4%BA%8C%E7%AB%AF%E5%8F%A3%E5%99%AA%E5%A3%B0%E7%AD%89%E6%95%88.png)
+- 接收电路灵敏度与噪声系数
+- 晶体管噪声模型
+  ![analog-circuit-design-晶体管等效噪声模型](https://raw.githubusercontent.com/puhang/resource/master/pictures/analog-circuit-design-%E6%99%B6%E4%BD%93%E7%AE%A1%E7%AD%89%E6%95%88%E5%99%AA%E5%A3%B0%E6%A8%A1%E5%9E%8B.png)
+- 信噪比和噪声系数
+  $$ N_F=\frac{P_{si}/P_{ni}}{P_{so}/P_{no}}=\frac{P_{no}}{G_pP_{ni}} $$
+  其中$P_{ni}$为信号源内阻产生的噪声，$P_{no}$为输出端的总噪声功率，$G_p$为二端口网络的功率增益。
+  可将$P_{no}$表示为线性网络本身噪声$P_{ano}$与输入噪声放大后的加和，$P_{no}=G_pP_{ni}+P_{ano}$，可得$P_{ano}=NFG_pP_{ni}-G_pP_{ni}=G_pP_{ni}(NF-1)$
+  将共轭匹配时的资用功率增益为功率增益指标，输入噪声功率$kTB$
 ## 单管放大器类型
 
 ## 双管复合型放大器
