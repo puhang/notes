@@ -1,0 +1,111 @@
+Circuit: * D:\BaiduSyncdisk\workspace\work\10MHz transmitter debug\SMGD.asc
+
+V4: Removing PWL point (5e-008,0)
+V4: Removing PWL point (1e-007,0)
+V4: Removing PWL point (2e-007,0)
+V4: Removing PWL point (3e-007,0)
+V4: Removing PWL point (4e-007,0)
+V4: Removing PWL point (5e-007,0)
+V4: Removing PWL point (6e-007,0)
+V4: Removing PWL point (7e-007,0)
+V4: Removing PWL point (8e-007,0)
+V4: Removing PWL point (9e-007,0)
+V4: Removing PWL point (1e-006,0)
+V4: Removing PWL point (1.1e-006,0)
+V4: Removing PWL point (1.2e-006,0)
+V4: Removing PWL point (1.3e-006,0)
+V4: Removing PWL point (1.4e-006,0)
+V4: Removing PWL point (1.5e-006,0)
+V4: Removing PWL point (1.6e-006,0)
+V4: Removing PWL point (1.7e-006,0)
+V4: Removing PWL point (1.8e-006,0)
+V4: Removing PWL point (1.9e-006,0)
+V3: Removing PWL point (5e-008,0)
+V3: Removing PWL point (1.5e-007,0)
+V3: Removing PWL point (2.5e-007,0)
+V3: Removing PWL point (3.5e-007,0)
+V3: Removing PWL point (4.5e-007,0)
+V3: Removing PWL point (5.5e-007,0)
+V3: Removing PWL point (6.5e-007,0)
+V3: Removing PWL point (7.5e-007,0)
+V3: Removing PWL point (8.5e-007,0)
+V3: Removing PWL point (9.5e-007,0)
+V3: Removing PWL point (1.05e-006,0)
+V3: Removing PWL point (1.15e-006,0)
+V3: Removing PWL point (1.25e-006,0)
+V3: Removing PWL point (1.35e-006,0)
+V3: Removing PWL point (1.45e-006,0)
+V3: Removing PWL point (1.55e-006,0)
+V3: Removing PWL point (1.65e-006,0)
+V3: Removing PWL point (1.75e-006,0)
+V3: Removing PWL point (1.85e-006,0)
+V3: Removing PWL point (1.95e-006,0)
+V2: Removing PWL point (5e-008,0)
+V2: Removing PWL point (1.5e-007,0)
+V2: Removing PWL point (2.5e-007,0)
+V2: Removing PWL point (3.5e-007,0)
+V2: Removing PWL point (4.5e-007,0)
+V2: Removing PWL point (5.5e-007,0)
+V2: Removing PWL point (6.5e-007,0)
+V2: Removing PWL point (7.5e-007,0)
+V2: Removing PWL point (8.5e-007,0)
+V2: Removing PWL point (9.5e-007,0)
+V2: Removing PWL point (1.05e-006,0)
+V2: Removing PWL point (1.15e-006,0)
+V2: Removing PWL point (1.25e-006,0)
+V2: Removing PWL point (1.35e-006,0)
+V2: Removing PWL point (1.45e-006,0)
+V2: Removing PWL point (1.55e-006,0)
+V2: Removing PWL point (1.65e-006,0)
+V2: Removing PWL point (1.75e-006,0)
+V2: Removing PWL point (1.85e-006,0)
+V2: Removing PWL point (1.95e-006,0)
+V1: Removing PWL point (5e-008,0)
+V1: Removing PWL point (1e-007,0)
+V1: Removing PWL point (2e-007,0)
+V1: Removing PWL point (3e-007,0)
+V1: Removing PWL point (4e-007,0)
+V1: Removing PWL point (5e-007,0)
+V1: Removing PWL point (6e-007,0)
+V1: Removing PWL point (7e-007,0)
+V1: Removing PWL point (8e-007,0)
+V1: Removing PWL point (9e-007,0)
+V1: Removing PWL point (1e-006,0)
+V1: Removing PWL point (1.1e-006,0)
+V1: Removing PWL point (1.2e-006,0)
+V1: Removing PWL point (1.3e-006,0)
+V1: Removing PWL point (1.4e-006,0)
+V1: Removing PWL point (1.5e-006,0)
+V1: Removing PWL point (1.6e-006,0)
+V1: Removing PWL point (1.7e-006,0)
+V1: Removing PWL point (1.8e-006,0)
+V1: Removing PWL point (1.9e-006,0)
+Instance "m:u4:1": Width narrower than recommended for a level 3 MOSFET.
+Instance "m:u3:1": Width narrower than recommended for a level 3 MOSFET.
+Instance "m:u1:1": Width narrower than recommended for a level 3 MOSFET.
+Instance "m:u2:1": Width narrower than recommended for a level 3 MOSFET.
+Direct Newton iteration for .op point succeeded.
+Changing Tseed to 9.76562e-013
+Changing Tseed to 9.76562e-015
+Changing Tseed to 9.76562e-012
+Changing Tseed to 9.76562e-016
+Changing Tseed to 9.76562e-011
+Heightened Def Con from 5.85175e-010 to 7.10175e-010
+
+Date: Wed Sep 28 14:20:03 2022
+Total elapsed time: 1.009 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 35809
+traniter = 35803
+tranpoints = 11723
+accept = 8482
+rejected = 3237
+matrix size = 63
+fillins = 32
+solver = Normal
+Matrix Compiler1: 4.65 KB object code size  0.7/0.4/[0.2]
+Matrix Compiler2: 5.31 KB object code size  0.3/0.6/[0.2]
+

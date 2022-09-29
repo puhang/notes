@@ -31,6 +31,6 @@ Description: smgd(self-driving multi-level gate driver)
 ### 硬开关辅助电路
 - 反向恢复时间 - trench MOSFET
 - 吸收缓冲电路 - RCD snubber circuit
-- 驱动辅助电路
+- 驱动辅助电路 - SMGD
 
 ## 仿真
